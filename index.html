@@ -1,122 +1,179 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="TW">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>YOUR ONLINE MUESUM</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css?a">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOUSEUM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">YOUR ONLINE MUESUM</a>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top ">
+        <div class="container">
+          <a class="navbar-brand fs-3" href="#"><img width="200px" src="logo-04.png" ></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">參觀</a>
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="#">·ＨＯＭＥ·</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">收藏</a>
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="#museum">·ＭＵＳＥＵＭ·</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  個人
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">頁面</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">帳號</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">登入</a>
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="visit.html">·ＶIＳIＴ·</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+
+            <div class="d-flex justify-content-centeralign-items-center gap-3">
+              <a href="#" class="text-white">· LOGIN ·</a>
+              <a href="#" class="text-white text-white text-decoration-none px-3 py-1 rounded-4"
+              style="background-color: rgb(210, 106, 64);">· SIGN UP ·</a>
+            </div>
           </div>
         </div>
       </nav>
 
-    <!-- 大圖區 -->
+      <!-- 大圖區 -->
     <div class="heroimg w-100 vh-100">
     </div>
 
-    <!-- 內容區 -->
-    <div class="container my-5">
-        <div class="row">
-            <div class="col text-center"> 
-                <h2>快來參觀你的線上博物館吧！</h2>
-                <p>WELCOME TO YOUR ONLINE MUESUM</p>
-            </div>
+      
+
+    <!-- 博物館介紹 -->
+    <section id="museum" class="museum">
+
+       <!-- 跑馬燈 -->
+       <div class="container my-4">
+        <div class="box">
+            <div class="img"><img width="500px" src="w-07.png" alt=""></div>
+            <div class="img"><img width="500px" src="w-07.png" alt=""></div>
+            <div class="img"><img width="500px" src="w-07.png" alt=""></div>
+            <div class="img"><img width="500px" src="w-07.png" alt=""></div>
+            <div class="img"><img width="500px" src="w-07.png" alt=""></div>
+            <div class="img"><img width="500px" src="w-07.png" alt=""></div>
         </div>
+      </div>
+
+      <div class="container">
+        <div class="left">
+          <img width="700px" src="m0.png" alt="">
+        </div>
+        <div class="righttop">
+          <h1>奧 塞 博 物 館</h1>
+        </div>
+        <div class="rightcenter">
+          <h5>Musée d'Orsay</h5>
+          <h5>法國巴黎塞納河左岸</h5>
+        </div>
+        <div class="rightunder">
+          <img width="350px" src="map.png" alt="">
+        </div>
+        <div class="dashed-line"></div>
+      </div>
+
+      <div class="container">
+        <div class="r1">
+          <img width="700px" src="m1.png" alt="">
+        </div>
+        <div class="lt1">
+          <h1>羅 浮 宮</h1>
+        </div>
+        <div class="lc1">
+          <h5>Palais de Louvre</h5>
+          <h5>法國巴黎市中心的塞納河邊</h5>
+        </div>
+        <div class="lu1">
+          <img width="350px" src="map1.png" alt="">
+        </div>
+        <div class="dashed-line"></div>
+      </div>
+
+      <div class="container">
+        <div class="l2">
+          <img width="700px" src="m2.png" alt="">
+        </div>
+        <div class="rt2">
+          <h1>衛 城 博 物 館</h1>
+        </div>
+        <div class="rc2">
+          <h5>Acropolis Museum</h5>
+          <h5>希臘雅典雅典衛城山下</h5>
+        </div>
+        <div class="ru2">
+          <img width="350px" src="map2.png" alt="">
+        </div>
+        <div class="dashed-line"></div>
+      </div>
+
+      <div class="container">
+        <div class="r3">
+          <img width="700px" src="m3.png" alt="">
+        </div>
+        <div class="lt3">
+          <h1>大 都 會 藝 術 博 物 館</h1>
+        </div>
+        <div class="lc3">
+          <h5>Metropolitan Museum of Art</h5>
+          <h5>美國紐約州紐約市曼哈頓中央公園旁</h5>
+        </div>
+        <div class="lu3">
+          <img width="350px" src="map3.png" alt="">
+        </div>
+        <div class="dashed-line"></div>
+      </div>
+
+      <div class="container">
+        <div class="l4">
+          <img width="700px" src="m4.png" alt="">
+        </div>
+        <div class="rt4">
+          <h1>普 拉 多 博 物 館</h1>
+        </div>
+        <div class="rc4">
+          <h5>Museo Nacional del Prado</h5>
+          <h5>西班牙馬德里</h5>
+        </div>
+        <div class="ru4">
+          <img width="350px" src="map4.png" alt="">
+        </div>
+        <div class="dashed-line"></div>
+      </div>
+    </section>
+
+    <!-- 文字 -->
+    <div class="container my-5">
+      <div class="word">
+        <h5>現在 你不需要出國也能看到這些藝術</h5>
+        <h3>快來參觀你的線上博物館吧！</h3>
+      </div>
     </div>
+
+    <div class="container-fluid custom-bg-color py-5 text-white my-5">
+      <div class="container">
+          <div class="row">
+              <div class="col-5">
+                  <h4>你的線上博物館</h4>
+                  <h5>博物館有限公司</h5>
+                  <p>
+                      電話：0956743291
+                  </p>
+                  <p>
+                      email：muesum000@gmail.com
+                  </p>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+
     
 
-    <!-- 卡片區 -->
-    <div class="container my-5">
-        <div class="row">
-            <div class="col-lg-4 col-sm-12 my-5">
-                <div class="card">
-                    <img src="2.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">  
-                      <h3>拾穗 Les Gleanuses Salon</h3>  
-                      <p class="card-text">1857年創作的拾穗，充分將農民農忙的景致呈現出來。在畫面中，冷調、金黃的光線賦予人物一種崇高的意像，也賦予農民形象一種英雄史詩般的角色。</p>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-lg-4 col-sm-12 my-5">
-                <div class="card">
-                    <img src="3-02.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h3>星夜 The Starry Night</h3>
-                        <p class="card-text">1889年創作的星夜，每一顆大星、小星迴旋於夜空中，星雲與稜線宛如一條龍不停地蠕動著。也可感受到梵谷心中不安，煩悶的心情呈現於。</p>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-lg-4 col-sm-12 my-5">
-                <div class="card">
-                    <img src="5-02.jpg" class="card-img-top" alt="...">
-                    <div class="card-body"> 
-                      <h3>晚禱 The Angelus</h3> 
-                      <p class="card-text">其作品「播種的人」對畫家梵谷也有影響。其作品晚禱，雖然是以描繪自然外貌為出發點，在畫家的筆下，彷佛在頌揚大自然給予人類的恩賜。</p>
-                    </div>
-                  </div>
-            </div>
-        </div>
-
-        <div class="container-fluid custom-bg-color py-5 text-white my-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-5">
-                        <h4>你的線上博物館</h4>
-                        <h5>博物館有限公司</h5>
-                        <p>
-                            電話：0956743291
-                        </p>
-                        <p>
-                            email：muesum000@gmail.com
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
-
 </html>
